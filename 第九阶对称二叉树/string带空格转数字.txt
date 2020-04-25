@@ -1,0 +1,34 @@
+
+//void getNums(string &s) {
+//    int curNum;
+//    int sIdx = 0;
+//    int len = s.size();
+//    bool minus;
+//    char c;
+//    while (sIdx != len) {
+//        minus = false;
+//        curNum = 0;
+//        c = s.at(sIdx);
+//        if (c != ' ') {
+//            if (c == '-') {
+//                minus = true;
+//                ++sIdx;
+//                c = s.at(sIdx);
+//            }
+//
+//            while (c != ' ') {
+//                curNum = curNum * 10 + (c - '0');
+//                ++sIdx;
+//                if(sIdx==len)
+//                    break;
+//                c = s.at(sIdx);
+//            }
+//            if(minus){
+//                curNum = -curNum;
+//            }
+//            val[idx++] = curNum;
+//        } else{
+//            ++sIdx;
+//        }
+//    }
+//}
